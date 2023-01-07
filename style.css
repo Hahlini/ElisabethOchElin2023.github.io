@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-size: 64px;
+    color: purple;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 65%;
+  }
