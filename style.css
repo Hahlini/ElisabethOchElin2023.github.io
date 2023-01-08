@@ -13,8 +13,7 @@ p {
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit;
+    all: unset;
 }
 
 .center {
