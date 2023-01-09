@@ -93,13 +93,13 @@ p {
   
   @media screen and (min-width: 1200px) {
     .pc-img {
-      background-image: url("imaes/bakgrund.jpg");
+      background-image: url("images/bakgrund.jpg");
       background-size: 100vw auto;
     }
   }
   @media screen and (max-width: 1200px) {
     .pc-img {
-        background-image: url("imaes/bakgrund.jpg");
+        background-image: url("images/bakgrund.jpg");
         background-size: auto 100vmax;
     }
   }
