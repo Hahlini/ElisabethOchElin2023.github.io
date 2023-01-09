@@ -41,7 +41,7 @@ body {
     .mainimage{ max-width: 25vw;}
 }
 @media (min-width : 1000px) {
-    .desktop{display: block}
+    .desktop{display: initial}
     .device{display: none;}
     .mainimage{max-width: 35vw;}
     .title{padding-bottom: 0px;}
