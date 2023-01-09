@@ -31,7 +31,6 @@ body {
     padding-bottom: 20px;
     max-width: 90vw;
     min-width: 40px;
-    padding-bottom: 10px;
     
 }
 
@@ -45,19 +44,30 @@ body {
     .device{display: none;}
     .mainimage{max-width: 35vw;}
     .title{padding-bottom: 0px;}
+    .invite{max-width: 60vw;}
 }
 
 
 
 h1 {
     font-family: 'Pinyon Script', cursive;
-    font-size: 8vw;
+    font-size: 7vw;
     color: black;
     font-weight: normal;
     line-height: 80%;
-} @media screen and (max-width: 1000px) {
+}
+
+.subtitle{
+    font-size: 3vw; 
+    color: gray;
+}
+
+@media screen and (max-width: 1000px) {
     h1{
         font-size: 14vw;
+    }
+    .subtitle{
+        font-size: 10vw;
     }
     .invite{
         border-width: 2px;
@@ -66,6 +76,8 @@ h1 {
         max-width: 80vw;
     }
 }
+
+
 
 h2 {
     margin: auto;
@@ -124,17 +136,17 @@ p {
 
 li {
     all:unset;
-    display: inline;
+    display: block;
     float: left;
-    width: 19vw;
+    width: 20%;
     text-align: center;
-    vertical-align: middle;
 }
 
 ul {
     padding-inline-start: 0px;
     margin: auto;
     height: auto;
+    max-width: 1200px;
 }
 
 
