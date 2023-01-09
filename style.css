@@ -50,7 +50,7 @@ body {
 h1 {
     font-family: 'Pinyon Script', cursive;
     font-size: 8vw;
-    color: white;
+    color: gray;
     font-weight: normal;
 } @media screen and (max-width: 1000px) {
     h1{
@@ -92,13 +92,13 @@ p {
   
   @media screen and (min-width: 1200px) {
     .pc-img {
-      background-image: url("images/bakgrund.jpg");
+      background-image: url("imaes/bakgrund.jpg");
       background-size: 100vw auto;
     }
   }
   @media screen and (max-width: 1200px) {
     .pc-img {
-        background-image: url("images/bakgrund.jpg");
+        background-image: url("imaes/bakgrund.jpg");
         background-size: auto 100vmax;
     }
   }
