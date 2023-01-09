@@ -27,7 +27,7 @@ body {
 
 .title {
     margin: auto;
-    padding-top: 70px;
+    margin-top: 140px;
     padding-bottom: 20px;
     max-width: 90vw;
     min-width: 40px;
@@ -52,11 +52,12 @@ body {
 h1 {
     font-family: 'Pinyon Script', cursive;
     font-size: 8vw;
-    color: gray;
+    color: black;
     font-weight: normal;
+    line-height: 80%;
 } @media screen and (max-width: 1000px) {
     h1{
-        font-size: 16vw;
+        font-size: 14vw;
     }
     .invite{
         border-width: 2px;
@@ -82,6 +83,12 @@ p {
     font-weight: normal;
     margin: auto;
     margin-left: 20px;
+}
+
+.banner {
+    background-image: url("images/bakgrund3.jpg");
+    background-repeat: repeat-x;
+    background-size: 600px;
 }
 
 .pc-img {
