@@ -13,5 +13,3 @@ var myfunc = setInterval(function() {
     document.getElementById("timeleft").innerHTML = "Bröllop om: "+days + " dagar " + hours + " timmar " + minutes + " minuter och " + seconds + "sekunder."
 
     }, 10)
-
-myfunc()
