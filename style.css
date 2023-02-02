@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Moon+Dance&family=Pinyon+Script&family=Rouge+Script&display=swap');
+@import url('https://fonts.adobe.com/fonts/shameless');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Italianno&display=swap');
+
+
 
 .device, .desktop {display:none;}
 
@@ -27,10 +35,11 @@ body {
 
 .title {
     margin: auto;
-    margin-top: 140px;
-    padding-bottom: 20px;
+    margin-top: 100px;
+    padding-bottom: 10px;
     max-width: 90vw;
     min-width: 40px;
+    line-height: 15vw;
     
 }
 
@@ -50,24 +59,24 @@ body {
 
 
 h1 {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 7vw;
+    font-family: 'Italianno', cursive;
+    font-size: 14vw;
     color: black;
     font-weight: normal;
     line-height: 80%;
 }
 
 .subtitle{
-    font-size: 3vw; 
+    font-size: 5vw; 
     color: gray;
 }
 
 @media screen and (max-width: 1000px) {
     h1{
-        font-size: 14vw;
+        font-size: 25vw;
     }
     .subtitle{
-        font-size: 10vw;
+        font-size: 13vw;
     }
     .invite{
         border-width: 2px;
@@ -81,26 +90,26 @@ h1 {
 
 h2 {
     margin: auto;
-    margin-left: 20px;
-    margin-top: 10px;
-    font-family: 'Rouge script', cursive;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: Abril Fatface;
+    font-size: 32px;
     font-weight: normal;
+    color: black;
 }
 
 p {
-    font-family: 'Rouge script', cursive;
-    font-size: 28px;
-    opacity: 1;
+    font-family: 'Bellefair', serif;
+    font-size: 21px;
     font-weight: normal;
     margin: auto;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 3px;
 }
 
 .banner {
     background-image: url("images/bakgrund3.jpg");
     background-repeat: repeat-x;
-    background-size: 600px;
+    background-size: 100vw;
 }
 
 .pc-img {

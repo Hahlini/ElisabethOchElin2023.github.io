@@ -10,6 +10,6 @@ var myfunc = setInterval(function() {
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    document.getElementById("timeleft").innerHTML = "Bröllop om: "+days + " dagar " + hours + " timmar " + minutes + " minuter och " + seconds + "sekunder."
+    document.getElementById("timeleft").innerHTML = "Bröllop om: "+days + " dagar " + hours + " timmar " + minutes + " minuter och " + seconds + " sekunder."
 
     }, 10)
