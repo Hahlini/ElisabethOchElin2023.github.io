@@ -31,11 +31,11 @@ body {
 
 .title {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 125px;
     padding-bottom: 10px;
     max-width: 90vw;
     min-width: 40px;
-    line-height: 15vw;
+    line-height: 7vw;
     
 }
 
@@ -56,10 +56,9 @@ body {
 
 h1 {
     font-family: 'Italianno', cursive;
-    font-size: 14vw;
+    font-size: 9vw;
     color: black;
     font-weight: normal;
-    line-height: 80%;
 }
 
 .subtitle{
@@ -81,6 +80,7 @@ h1 {
     .mainimage {
         max-width: 80vw;
     }
+    .title{line-height: 15vw;}
 }
 
 
@@ -112,8 +112,9 @@ p {
 
 .banner {
     background-image: url("images/bakgrund3.jpg");
+    background-size:550px;
     background-repeat: repeat-x;
-    background-size: 100vw;
+    background-position: top;
 }
 
 .pc-img {
@@ -123,16 +124,9 @@ p {
     background-repeat: no-repeat;
   }
   
-  @media screen and (min-width: 1200px) {
-    .pc-img {
-      background-image: url("images/bakgrund.jpg");
-      background-size: 100vw auto;
-    }
-  }
-  @media screen and (max-width: 1200px) {
-    .pc-img {
-        background-image: url("images/bakgrund.jpg");
-        background-size: auto 100vmax;
+  @media screen and (min-width: 1000px) {
+    .banner {
+      background-size: 550px;
     }
   }
 
