@@ -5,10 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Italianno&display=swap');
 
-
-
-.device, .desktop {display:none;}
-
 body {
     
     text-align: center;
@@ -23,7 +19,7 @@ body {
 }
 
 .mainimage {
-    border-radius: 20px;
+    border-radius: 0px;
     max-width: 25vw;
     margin: auto;
 
@@ -31,8 +27,7 @@ body {
 
 .title {
     margin: auto;
-    margin-top: 125px;
-    padding-bottom: 10px;
+    margin-top: 100px;
     max-width: 90vw;
     min-width: 40px;
     line-height: 7vw;
@@ -40,13 +35,9 @@ body {
 }
 
 @media (max-width : 1000px) {
-    .device{display: block}
-    .desktop{display: none;}
     .mainimage{ max-width: 25vw;}
 }
 @media (min-width : 1000px) {
-    .desktop{display: initial}
-    .device{display: none;}
     .mainimage{max-width: 35vw;}
     .title{padding-bottom: 0px;}
     .invite{max-width: 60vw;}
@@ -55,24 +46,24 @@ body {
 
 
 h1 {
-    font-family: 'Italianno', cursive;
-    font-size: 9vw;
+    font-family: 'Shameless';
+    font-size: 48px;
     color: black;
     font-weight: normal;
 }
 
 .subtitle{
-    font-size: 5vw; 
+    font-family: 'Bellefair', serif;
+    font-size: 24px; 
     color: gray;
-    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1000px) {
     h1{
-        font-size: 25vw;
+        font-size: 48px;
     }
     .subtitle{
-        font-size: 13vw;
+        font-size: 24px;
     }
     .invite{
         border-width: 2px;
@@ -111,8 +102,8 @@ p {
 }
 
 .banner {
-    background-image: url("images/bakgrund3.jpg");
-    background-size:550px;
+    background-image: url("images/blad.png");
+    background-size:300px;
     background-repeat: repeat-x;
     background-position: top;
 }
@@ -179,4 +170,9 @@ iframe {
 
 a {
     all: unset;
+}
+
+@font-face {
+    font-family: Shameless;
+    src: url(Shameless\ Deluxe.otf);
 }
