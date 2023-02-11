@@ -1,27 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Moon+Dance&family=Pinyon+Script&family=Rouge+Script&display=swap');
+@import url('https://fonts.adobe.com/fonts/shameless');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Italianno&display=swap');
+
+
+
+.device, .desktop {display:none;}
+
 body {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
+    
     text-align: center;
+
+} 
+
+.invite {
+    margin: auto;
+    max-width: 85vw;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.mainimage {
+    border-radius: 20px;
+    max-width: 25vw;
+    margin: auto;
+
+}
+
+.title {
+    margin: auto;
+    margin-top: 125px;
+    padding-bottom: 10px;
+    max-width: 90vw;
+    min-width: 40px;
+    line-height: 7vw;
+    
+}
+
+@media (max-width : 1000px) {
+    .device{display: block}
+    .desktop{display: none;}
+    .mainimage{ max-width: 25vw;}
+}
+@media (min-width : 1000px) {
+    .desktop{display: initial}
+    .device{display: none;}
+    .mainimage{max-width: 35vw;}
+    .title{padding-bottom: 0px;}
+    .invite{max-width: 60vw;}
+}
+
+
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 9vw;
+    color: black;
+    font-weight: normal;
+}
+
+.subtitle{
+    font-size: 5vw; 
+    color: gray;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 25vw;
+    }
+    .subtitle{
+        font-size: 13vw;
+    }
+    .invite{
+        border-width: 2px;
+    }
+    .mainimage {
+        max-width: 80vw;
+    }
+    .title{line-height: 15vw;}
+}
+
+
+
+h2 {
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: Abril Fatface;
+    font-size: 38px;
+    font-weight: normal;
+    color: black;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 12px;
 }
 
 p {
-    font-size: 8vw;
-    color: purple;
-    margin-top: 10px;
+    font-family: 'Bellefair', serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 3px;
+}
+
+.banner {
+    background-image: url("images/bakgrund3.jpg");
+    background-size:550px;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.pc-img {
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .banner {
+      background-size: 550px;
+    }
+  }
+
+
+ul {
+    list-style: "— ";
+    padding: 0;
+    padding-left: 25px;
+}
+
+li {
     margin-bottom: 10px;
+}
+
+nav li {
+    all:unset;
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.nav2 {
+    font-family: 'Bellefair', serif;
+    font-size: 21px;
+    text-decoration: underline;
+}
+  
+.navbarlink {
+    all: unset;
+    display:block;
+    padding: 2px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background-color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 16px;
+    color: gray;
+  }
+
+iframe {
+    width: 100%;
+    height: 80vh
 }
 
 a {
     all: unset;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    max-width: 95vw;
-    max-height: 40vw;
 }
