@@ -104,6 +104,10 @@ p {
     background-position: top;
 }
 
+body {
+    margin-top: 160px;
+}
+
 .pc-img {
     width: 100%;
     height: 400px;
